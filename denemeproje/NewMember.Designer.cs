@@ -1,6 +1,6 @@
 ﻿namespace denemeproje
 {
-    partial class NewMember
+    partial class newMember1
     {
         /// <summary>
         /// Required designer variable.

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace denemeproje
 {
-    public partial class MemberList : Form
+    public partial class Form1 : Form
     {
-        public MemberList()
+        public Form1()
         {
             InitializeComponent();
         }

@@ -21,5 +21,18 @@ namespace denemeproje
         {
 
         }
+
+        private void AnaEkranAdmin_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void newMember_Click(object sender, EventArgs e)
+        {
+            NewMemberSon NewMemberSon = new NewMemberSon();
+
+            // NewMember formunu göster
+            NewMemberSon.Show();
+        }
     }
 }

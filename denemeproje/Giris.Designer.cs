@@ -38,55 +38,60 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(197, 160);
+            label1.Location = new Point(172, 120);
             label1.Name = "label1";
-            label1.Size = new Size(78, 20);
+            label1.Size = new Size(62, 15);
             label1.TabIndex = 0;
             label1.Text = "UserName";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(197, 233);
+            label2.Location = new Point(172, 175);
             label2.Name = "label2";
-            label2.Size = new Size(70, 20);
+            label2.Size = new Size(57, 15);
             label2.TabIndex = 1;
             label2.Text = "Password";
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(326, 160);
+            textBox1.Location = new Point(285, 120);
+            textBox1.Margin = new Padding(3, 2, 3, 2);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(204, 27);
+            textBox1.Size = new Size(179, 23);
             textBox1.TabIndex = 2;
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(326, 226);
+            textBox2.Location = new Point(285, 170);
+            textBox2.Margin = new Padding(3, 2, 3, 2);
             textBox2.Name = "textBox2";
-            textBox2.Size = new Size(204, 27);
+            textBox2.Size = new Size(179, 23);
             textBox2.TabIndex = 3;
             // 
             // button1
             // 
-            button1.Location = new Point(379, 295);
+            button1.Location = new Point(332, 221);
+            button1.Margin = new Padding(3, 2, 3, 2);
             button1.Name = "button1";
-            button1.Size = new Size(94, 29);
+            button1.Size = new Size(82, 22);
             button1.TabIndex = 4;
             button1.Text = "Log In";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
-            // Form2
+            // Giris
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(700, 338);
             Controls.Add(button1);
             Controls.Add(textBox2);
             Controls.Add(textBox1);
             Controls.Add(label2);
             Controls.Add(label1);
-            Name = "Form2";
+            Margin = new Padding(3, 2, 3, 2);
+            Name = "Giris";
             Text = "Form2";
             ResumeLayout(false);
             PerformLayout();
